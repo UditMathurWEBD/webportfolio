@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+
+body{
+    background-image: url(/bg.jpg);
+    background-color: #18181B;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.noticia-text-regular {
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noticia-text-bold {
+  font-family: "Noticia Text", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.noticia-text-regular-italic {
+  font-family: "Noticia Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.noticia-text-bold-italic {
+  font-family: "Noticia Text", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@keyframes scroll {
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee {
+  animation: scroll 25s linear infinite;
+}
+
+
+
+/* @keyframes rotate {
+  0%   { translate: rotate(20deg); }
+  100% { translate: rotate(40deg); }
+  0%   { translate: rotate(20deg); }
+}
+
+.rotate {
+  animation: rotate 25s linear infinite;
+} */
+
