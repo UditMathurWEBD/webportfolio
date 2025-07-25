@@ -2,7 +2,7 @@ const projectData = [
   {
     id: 1,
     category: "Full Stack",
-    title: "YouTube Clone",
+    title: "Youtube Clone",
     tagline: "A full-stack video streaming platform with authentication, uploads, reactions, and subscriptions — built from scratch.",
     overview: `This YouTube Clone is a fully functional full-stack video-sharing platform built from the ground up. Users can register, upload and watch videos, comment, like/dislike, subscribe to channels, and more. The frontend is built using React and TailwindCSS, while the backend is powered by Node.js, Express, and MongoDB. JWT is used for secure authentication and Multer for handling file uploads. It’s designed to mimic core YouTube features with clean UI and scalable architecture.`,
     features: [

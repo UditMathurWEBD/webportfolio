@@ -26,7 +26,7 @@ export default function Projects() {
          {projectData.map((project)=>{
           return <Link to={`/Projects/${project.title}`}>
                  <div className='w-[300px] p-1 border-[0.5px] rounded-xl border-[#7A7A7A] bg-[#25252A]'>
-                    <img src={`/public/${project.title}/cardImg.png`}></img>
+                    <img src={`/${project.title}/cardImg.png`}></img>
                     <div className='p-4 flex justify-between items-center '>
                           <h1 className='noticia-text-bold'>{project.title}</h1>
                           <p className='text-sm text-[#D0E170] noticia-text-regular px-4 py-2 bg-[#27272D] rounded-full border border-dashed border-[#D0E170]' >{project.category}</p>

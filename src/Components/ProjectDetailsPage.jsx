@@ -95,7 +95,7 @@ Github Repository
 
 <div className='grid lg:grid-cols-3 grid-cols-1   gap-2 mt-14 flex-wrap xl:flex-nowrap'>
 {data.screenshots.map((img)=>{
-  return <img src={`/public/${data.title}${img}`}></img>
+  return <img src={`/${data.title}${img}`}></img>
 })}
 </div>
 
