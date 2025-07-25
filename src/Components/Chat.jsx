@@ -12,16 +12,16 @@ export default function Chat() {
       transition={{ duration: 0.5 }}
     >
 
-      <div className='w-max h-auto sm:h-[90vh] mt-15 sm:mt-0 sm:mb-0 flex flex-col justify-center items-start p-6 sm:p-0 md:max-w-[80%] m-auto lg:max-w-[60%]'>
+      <div className='w-auto lg:w-max h-auto sm:h-[90vh] mt-15 sm:mt-0 sm:mb-0 flex flex-col justify-center items-start p-6 sm:p-0 md:max-w-[80%] m-auto lg:max-w-[60%]'>
         <h1 className='noticia-text-bold text-2xl   sm:text-[42px]'>Chat With Me</h1>
         <p className='mt-2 text-[#BABABB] font-light'>Got a question or proposal, or just want to say hello ? Go ahead . </p>
         <form className='mt-8'>
-          <div className='flex gap-4'>
-            <div className='flex flex-col gap-3'>
+          <div className='flex  flex-wrap gap-4'>
+            <div className='flex w-[-webkit-fill-available] sm:w-auto flex-col  gap-3'>
           <label className='text-sm' for="Name">Name</label>
           <input type='text' className='px-6 py-3 border bg-[#25252A] border-[#BABABB] rounded-xl' name='Name' placeholder='Enter Your Name'></input>
           </div>
-            <div className='flex flex-col gap-3'>
+            <div className='flex w-[-webkit-fill-available] sm:w-auto flex-col gap-3'>
           <label className='text-sm' for="Name">Email Id</label>
           <input type='mail' className='px-6 py-3 border bg-[#25252A] border-[#BABABB] rounded-xl' name='E-mail Id' placeholder='Enter Your E-mail Id'></input>
           </div>
