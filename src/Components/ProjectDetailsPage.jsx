@@ -27,7 +27,7 @@ transition={{ duration: 1.5 }}
 >
 <div className='mt-8 mb-20 lg:mt-0 h-auto flex flex-col justify-center items-start p-6 sm:p-0 md:max-w-[80%] m-auto lg:max-w-[70%]'>
 <h1 className='mb-8 text-sm flex gap-2'><Link className='text-sm underline' to="/Projects">Projects</Link>  /<p className='underline'>{data.title}</p> </h1>
-<img className='mb-6' src={`/public/${data.title}${data.thumbnailImg}`}></img>
+<img className='mb-6' src={`/${data.title}${data.thumbnailImg}`}></img>
 <div className='bg-[#27272D] flex p-2 w-max rounded-full items-center gap-2 pr-4 noticia-text-regular 
 text-sm hover:bg-[#D0E170] hover:text-black'>
 <div className='h-4 w-4 bg-[#D0E170] rounded-full border border-white'></div>
