@@ -13,5 +13,23 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      function isInAppBrowser() {
+  const ua = navigator.userAgent || navigator.vendor || window.opera;
+  return (
+    ua.includes("FBAN") || // Facebook
+    ua.includes("FBAV") || // Facebook
+    ua.includes("Instagram") ||
+    ua.includes("LinkedInApp") ||
+    ua.includes("Line") ||
+    ua.includes("Twitter") ||
+    ua.includes("Snapchat")
+  );
+}
+
+if (isInAppBrowser()) {
+  alert("Looks like you opened the website on In App Browser . Please open this site in Chrome or Safari to log in with Google.");
+}
+    </script>
   </body>
 </html>
